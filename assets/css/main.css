@@ -1,0 +1,61 @@
+html{
+ background-color: #313a3d;
+ background-attachment: fixed;
+ background-image:url("../../images/overlay.png"), url("../../images/bg.jpg");
+}
+.conteneur{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.boite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.centre-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centre-page .bloc{
+    background: tomato;
+    padding: 40px;
+    color: white;
+    font-size: 24px;
+ }
+
+ #my{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+ }
+
+  #my .carte-profil{
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+
+  #my .carte-profil .avatar{
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+
+  .avatar img{
+    height: 60px;
+    width: 60px;
+  }
